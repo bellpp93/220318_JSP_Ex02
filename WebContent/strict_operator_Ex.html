@@ -2,10 +2,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>자바스크립트 연산자 ==와 ===의 차이점</title>
 <script>
-	var a = 1;
-	var b = true;
+/*
+ * 	==	등호 연산자(Equal Operator) => 값 비교
+ * 	===	엄격한 등호 연산자(Strict Equal Operator) => 값과 값의 종류(Data Type)가 모두 같은지 비교
+ */
+	var a = 1;  // var a = 0;
+	var b = true;  // var b = false;
 
 	alert(a == b);  // [실행 결과] true
 	alert(a === b);  // [실행 결과] false
